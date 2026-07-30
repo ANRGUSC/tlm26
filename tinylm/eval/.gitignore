@@ -1,0 +1,5 @@
+# never commit the API key or generated data
+.env
+completions.json
+graded.json
+gen.log

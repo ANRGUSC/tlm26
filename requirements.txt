@@ -1,0 +1,13 @@
+# Training + inference (tinylm/)
+torch
+sentencepiece
+numpy
+tqdm
+requests
+
+# Figures + scaling-law fit (reports/)
+scipy
+matplotlib
+
+# Tests
+pytest

@@ -1,0 +1,602 @@
+{
+ "0": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "1": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "2": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "3": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "4": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "5": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "6": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "7": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "8": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "9": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "10": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "11": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "12": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "13": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "14": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "15": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "16": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "17": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "18": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "19": {
+  "model": "d128 converged (30k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "20": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "21": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "22": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "23": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "24": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "25": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "26": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "27": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "28": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "29": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "30": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "31": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "32": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "33": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "34": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "35": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "36": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "37": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "38": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "39": {
+  "model": "d128 protocol (5k steps) (989K)",
+  "params": 988544,
+  "non_embed": 923008
+ },
+ "40": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "41": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "42": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "43": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "44": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "45": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "46": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "47": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "48": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "49": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "50": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "51": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "52": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "53": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "54": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "55": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "56": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "57": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "58": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "59": {
+  "model": "QAT int4 dep (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "60": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "61": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "62": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "63": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "64": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "65": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "66": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "67": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "68": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "69": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "70": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "71": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "72": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "73": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "74": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "75": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "76": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "77": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "78": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "79": {
+  "model": "A d64/5L fp32 (5k steps) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "80": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "81": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "82": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "83": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "84": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "85": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "86": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "87": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "88": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "89": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "90": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "91": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "92": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "93": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "94": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "95": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "96": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "97": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "98": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "99": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "100": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "101": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "102": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "103": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "104": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "105": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "106": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "107": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "108": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "109": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "110": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "111": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "112": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "113": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "114": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "115": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "116": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "117": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "118": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "119": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ }
+}

@@ -1,0 +1,92 @@
+[
+ {
+  "model": "TinyStories-3M (paper baseline) (8278K)",
+  "params": 8278400,
+  "grammar": 7.3,
+  "creativity": 4.617,
+  "consistency": 5.767,
+  "plot": 4.7,
+  "overall": 5.596,
+  "judge_spread": 0.575,
+  "per_judge_overall": [
+   5.537,
+   5.338,
+   5.912
+  ]
+ },
+ {
+  "model": "TinyStories-1M (paper baseline) (3746K)",
+  "params": 3745984,
+  "grammar": 6.167,
+  "creativity": 3.333,
+  "consistency": 3.933,
+  "plot": 3.083,
+  "overall": 4.129,
+  "judge_spread": 0.463,
+  "per_judge_overall": [
+   4.075,
+   3.925,
+   4.388
+  ]
+ },
+ {
+  "model": "Width d128 (ours, best sub-1M) (989K)",
+  "params": 988544,
+  "grammar": 4.55,
+  "creativity": 2.733,
+  "consistency": 2.7,
+  "plot": 2.117,
+  "overall": 3.025,
+  "judge_spread": 0.45,
+  "per_judge_overall": [
+   3.0,
+   2.812,
+   3.263
+  ]
+ },
+ {
+  "model": "QAT ternary d96 dep (ours) (557K)",
+  "params": 557088,
+  "grammar": 2.417,
+  "creativity": 2.017,
+  "consistency": 1.533,
+  "plot": 1.133,
+  "overall": 1.775,
+  "judge_spread": 0.175,
+  "per_judge_overall": [
+   1.837,
+   1.663,
+   1.825
+  ]
+ },
+ {
+  "model": "A + no-fallback tok (ours) (279K)",
+  "params": 279232,
+  "grammar": 2.9,
+  "creativity": 2.05,
+  "consistency": 1.85,
+  "plot": 1.217,
+  "overall": 2.004,
+  "judge_spread": 0.1,
+  "per_judge_overall": [
+   2.038,
+   1.938,
+   2.038
+  ]
+ },
+ {
+  "model": "2L d80 (ours, 187K floor) (187K)",
+  "params": 187280,
+  "grammar": 2.25,
+  "creativity": 2.017,
+  "consistency": 1.383,
+  "plot": 1.067,
+  "overall": 1.679,
+  "judge_spread": 0.137,
+  "per_judge_overall": [
+   1.7,
+   1.6,
+   1.738
+  ]
+ }
+]

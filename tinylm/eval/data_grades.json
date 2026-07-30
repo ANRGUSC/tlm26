@@ -1,0 +1,14 @@
+{
+  "_note": "Coherence grading of the dataset-size ablation (eval/completions_data.json, 20 prompts/model, temp 0.8). Rubric = TinyStories GPT-4 method (grammar/creativity/consistency/plot, 1-10). JUDGE: acted by the agent model (Claude Opus) in-context, NOT the automated eval/llm_judge.py (claude-sonnet-5, needs ANTHROPIC_API_KEY). Confirms the bits-per-byte floor (RESEARCH_LOG sec.7): graded coherence is flat from full data down to ~10-37M tokens, then falls off below 10M.",
+  "judge": "agent-in-context (Claude Opus); pending reproducible claude-sonnet-5 run",
+  "temperature": 0.8,
+  "prompts_per_model": 20,
+  "grades": [
+    {"model": "full 1.85B (A)", "train_tokens": 1850000000, "grammar": 7.0, "creativity": 4.5, "consistency": 4.5, "plot": 4.5, "overall": 5.1, "verdict": "coherent"},
+    {"model": "37M (1 shard)",  "train_tokens": 37000000,   "grammar": 7.0, "creativity": 4.5, "consistency": 4.5, "plot": 4.0, "overall": 5.0, "verdict": "coherent"},
+    {"model": "10M",            "train_tokens": 10000000,   "grammar": 6.5, "creativity": 4.0, "consistency": 4.0, "plot": 3.5, "overall": 4.5, "verdict": "coherent (floor)"},
+    {"model": "3M",             "train_tokens": 3000000,    "grammar": 5.5, "creativity": 3.5, "consistency": 3.5, "plot": 3.0, "overall": 3.9, "verdict": "slipping"},
+    {"model": "1M",             "train_tokens": 1000000,    "grammar": 4.5, "creativity": 3.0, "consistency": 2.5, "plot": 2.5, "overall": 3.1, "verdict": "degraded"},
+    {"model": "300K",           "train_tokens": 300000,     "grammar": 3.0, "creativity": 2.0, "consistency": 1.5, "plot": 1.5, "overall": 2.0, "verdict": "broken"}
+  ]
+}

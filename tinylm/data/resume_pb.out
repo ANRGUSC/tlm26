@@ -1,0 +1,11 @@
+[ternary_d96 resume] start (from step 10000)
+[ternary_d96] exit=0 step 30000: train loss 1.4772, val loss 1.4763
+[t300k] start
+[t300k] exit=0 step 30000: train loss 1.3168, val loss 1.3476
+[t1m] start
+[t1m] exit=0 step 30000: train loss 1.3224, val loss 1.3298
+[t3m] start
+[t3m] exit=0 step 30000: train loss 1.3234, val loss 1.3255
+[t10m] start
+[t10m] exit=0 step 30000: train loss 1.3239, val loss 1.3248
+PRIORITY_B_RESUME_ALL_DONE

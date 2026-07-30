@@ -1,0 +1,15 @@
+[depth L1] start -> out_depth_L1_long
+[depth L1] exit=0 step 30000: train loss 1.7698, val loss 1.7705
+[depth L2] start -> out_depth_L2_long
+[depth L2] exit=0 step 30000: train loss 1.5736, val loss 1.5738
+[depth L3] start -> out_depth_L3_long
+[depth L3] exit=0 step 30000: train loss 1.4693, val loss 1.4683
+[depth L4] start -> out_depth_L4_long
+[depth L4] exit=0 step 30000: train loss 1.3890, val loss 1.3878
+[depth L6] start -> out_depth_L6_long
+[depth L6] exit=0 step 30000: train loss 1.2793, val loss 1.2782
+[depth L8] start -> out_depth_L8_long
+[depth L8] exit=0 step 30000: train loss 1.2104, val loss 1.2088
+[shape d80/3L] start -> out_iso_d80L3_long
+[shape d80/3L] exit=0 step 30000: train loss 1.3570, val loss 1.3556
+DEPTH_SHAPE_CONVERGENCE_ALL_DONE

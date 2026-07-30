@@ -1,0 +1,12 @@
+# For the Wokwi extension in VS Code (lets you run the simulator against a locally
+# compiled build, with no project-size limit — recommended for the 989K model).
+# Build the sketch first with arduino-cli or the Arduino IDE for board
+# "esp32:esp32:esp32s3" with PSRAM enabled and a large-app partition, then point
+# these paths at the build output.
+#
+# Not needed for the wokwi.com web IDE, where you paste the source files directly.
+
+[wokwi]
+version = 1
+firmware = "build/esp32.esp32.esp32s3/sketch.ino.bin"
+elf = "build/esp32.esp32.esp32s3/sketch.ino.elf"

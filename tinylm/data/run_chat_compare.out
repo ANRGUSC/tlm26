@@ -1,0 +1,7 @@
+[chat d64] fine-tune out_width_d64_long -> out_chat_d64
+[chat d64] exit=0 step 1500: val loss 0.1071
+[chat d96] fine-tune out_width_d96_long -> out_chat_d96
+[chat d96] exit=0 step 1500: val loss 0.0548
+[chat d128] fine-tune out_width_d128_long -> out_chat_d128
+[chat d128] exit=0 step 1500: val loss 0.0333
+CHAT_COMPARE_ALL_DONE

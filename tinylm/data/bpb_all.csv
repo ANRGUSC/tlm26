@@ -1,0 +1,26 @@
+label,params,vocab,val_loss,tokens_per_byte,bits_per_byte
+Created a PretokDataset with rng seed 42
+J,1606912,512,1.1052,0.4813,0.7674
+Created a PretokDataset with rng seed 42
+H,910272,512,1.2342,0.4813,0.8570
+Created a PretokDataset with rng seed 42
+G,619392,512,1.3106,0.4813,0.9101
+Created a PretokDataset with rng seed 42
+D,557088,512,1.3192,0.4813,0.9161
+Created a PretokDataset with rng seed 42
+I,869120,512,1.3769,0.4813,0.9561
+Created a PretokDataset with rng seed 42
+E,427072,512,1.4456,0.4813,1.0038
+Loop 2x3,ERROR,512,,,ImportError: cannot import name 'Transformer' from 'model_looped' (C:\Users\Mhlit\Desktop\Coding\TinyStories recreation\llama2.c\model_looped.py)
+Created a PretokDataset with rng seed 42
+A,279232,512,1.5686,0.4813,1.0892
+Created a PretokDataset with rng seed 42
+Distilled,279232,512,1.6352,0.4813,1.1355
+Loop 1x5,ERROR,512,,,ImportError: cannot import name 'Transformer' from 'model_looped' (C:\Users\Mhlit\Desktop\Coding\TinyStories recreation\llama2.c\model_looped.py)
+Loop 2x3+inject,ERROR,512,,,ImportError: cannot import name 'Transformer' from 'model_looped' (C:\Users\Mhlit\Desktop\Coding\TinyStories recreation\llama2.c\model_looped.py)
+Created a PretokDataset with rng seed 42
+F,126384,512,1.8700,0.4813,1.2985
+Created a PretokDataset with rng seed 42
+B,312000,1024,2.1156,0.3284,1.0022
+Created a PretokDataset with rng seed 42
+C,377536,2048,2.2848,0.2767,0.9122

@@ -1,0 +1,502 @@
+{
+ "0": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "1": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "2": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "3": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "4": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "5": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "6": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "7": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "8": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "9": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "10": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "11": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "12": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "13": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "14": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "15": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "16": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "17": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "18": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "19": {
+  "model": "d96/2L wide-shallow @30k (252K)",
+  "params": 252384,
+  "non_embed": 203232
+ },
+ "20": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "21": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "22": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "23": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "24": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "25": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "26": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "27": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "28": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "29": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "30": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "31": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "32": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "33": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "34": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "35": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "36": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "37": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "38": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "39": {
+  "model": "d48/10L deep-narrow @30k (279K)",
+  "params": 279024,
+  "non_embed": 254448
+ },
+ "40": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "41": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "42": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "43": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "44": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "45": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "46": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "47": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "48": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "49": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "50": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "51": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "52": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "53": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "54": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "55": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "56": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "57": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "58": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "59": {
+  "model": "QAT int4 dep @30k (deploy) (279K)",
+  "params": 279232,
+  "non_embed": 246464
+ },
+ "60": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "61": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "62": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "63": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "64": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "65": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "66": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "67": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "68": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "69": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "70": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "71": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "72": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "73": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "74": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "75": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "76": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "77": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "78": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "79": {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536
+ },
+ "80": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "81": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "82": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "83": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "84": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "85": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "86": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "87": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "88": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "89": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "90": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "91": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "92": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "93": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "94": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "95": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "96": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "97": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "98": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ },
+ "99": {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504
+ }
+}

@@ -1,0 +1,19 @@
+[char105] start
+[char105] exit=0 step 30000: train loss 0.6919, val loss 0.6917
+[tok256] start
+[tok256] exit=0 step 30000: train loss 1.3486, val loss 1.3469
+[tok512dep] start
+[tok512dep] exit=0 step 30000: train loss 1.6770, val loss 1.6783
+[tok512nf] start
+[tok512nf] exit=0 step 30000: train loss 1.6561, val loss 1.6562
+[tok512uni] start
+[tok512uni] exit=0 step 30000: train loss 1.3059, val loss 1.3051
+[B/1024] start
+[B] exit=0 step 30000: train loss 1.7981, val loss 1.7965
+[C/2048] start
+[C] exit=0 step 30000: train loss 1.9348, val loss 1.9319
+[qat_int4] start
+[qat_int4] exit=0 step 30000: train loss 1.3955, val loss 1.3942
+[qat_ternary] start
+[qat_ternary] exit=0 step 30000: train loss 1.7457, val loss 1.7446
+[qat_ternary_d96] start

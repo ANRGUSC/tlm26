@@ -1,0 +1,9 @@
+[width d32] start -> out_width_d32_long
+[width d32] exit=0 step 30000: train loss 1.7572, val loss 1.7571
+[width d48] start -> out_width_d48_long
+[width d48] exit=0 step 30000: train loss 1.5357, val loss 1.5361
+[width d64] start -> out_width_d64_long
+[width d64] exit=0 step 30000: train loss 1.3274, val loss 1.3268
+[width d96] start -> out_width_d96_long
+[width d96] exit=0 step 30000: train loss 1.1236, val loss 1.1226
+WIDTH_CONVERGENCE_ALL_DONE

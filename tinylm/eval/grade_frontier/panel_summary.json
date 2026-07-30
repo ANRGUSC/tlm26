@@ -1,0 +1,145 @@
+[
+ {
+  "model": "d48/2L (76K)",
+  "params": 75504,
+  "non_embed": 50928,
+  "grammar": 1.517,
+  "creativity": 1.517,
+  "consistency": 1.167,
+  "plot": 1,
+  "overall": 1.3,
+  "judge_spread": 0.05
+ },
+ {
+  "model": "d32/5L (78K)",
+  "params": 78176,
+  "non_embed": 61792,
+  "grammar": 1.267,
+  "creativity": 1.683,
+  "consistency": 1.2,
+  "plot": 1,
+  "overall": 1.287,
+  "judge_spread": 0.087
+ },
+ {
+  "model": "d64/2L (131K)",
+  "params": 131392,
+  "non_embed": 98624,
+  "grammar": 2.067,
+  "creativity": 1.867,
+  "consistency": 1.517,
+  "plot": 1.083,
+  "overall": 1.633,
+  "judge_spread": 0.075
+ },
+ {
+  "model": "d48/5L (152K)",
+  "params": 151824,
+  "non_embed": 127248,
+  "grammar": 2.217,
+  "creativity": 1.85,
+  "consistency": 1.55,
+  "plot": 1.1,
+  "overall": 1.679,
+  "judge_spread": 0.225
+ },
+ {
+  "model": "d80/2L (claimed floor) (187K)",
+  "params": 187280,
+  "non_embed": 146320,
+  "grammar": 2.517,
+  "creativity": 2.033,
+  "consistency": 1.95,
+  "plot": 1.167,
+  "overall": 1.917,
+  "judge_spread": 0.05
+ },
+ {
+  "model": "d96/2L (252K)",
+  "params": 252384,
+  "non_embed": 203232,
+  "grammar": 2.733,
+  "creativity": 2.233,
+  "consistency": 2.067,
+  "plot": 1.3,
+  "overall": 2.083,
+  "judge_spread": 0.2
+ },
+ {
+  "model": "A + no-fallback tok (279K)",
+  "params": 279232,
+  "non_embed": 246464,
+  "grammar": 3.2,
+  "creativity": 2.367,
+  "consistency": 2.35,
+  "plot": 1.517,
+  "overall": 2.358,
+  "judge_spread": 0.062
+ },
+ {
+  "model": "A d64/5L fp32 (279K)",
+  "params": 279232,
+  "non_embed": 246464,
+  "grammar": 3.15,
+  "creativity": 2.333,
+  "consistency": 2.167,
+  "plot": 1.417,
+  "overall": 2.267,
+  "judge_spread": 0.2
+ },
+ {
+  "model": "QAT int4 dep (279K)",
+  "params": 279232,
+  "non_embed": 246464,
+  "grammar": 3.667,
+  "creativity": 2.517,
+  "consistency": 2.467,
+  "plot": 1.717,
+  "overall": 2.592,
+  "judge_spread": 0.1
+ },
+ {
+  "model": "QAT ternary d96 dep (557K)",
+  "params": 557088,
+  "non_embed": 507936,
+  "grammar": 2.85,
+  "creativity": 2.15,
+  "consistency": 2.017,
+  "plot": 1.233,
+  "overall": 2.062,
+  "judge_spread": 0.262
+ },
+ {
+  "model": "Width d128 (best sub-1M) (989K)",
+  "params": 988544,
+  "non_embed": 923008,
+  "grammar": 5.467,
+  "creativity": 3.383,
+  "consistency": 3.75,
+  "plot": 2.633,
+  "overall": 3.808,
+  "judge_spread": 0.4
+ },
+ {
+  "model": "TinyStories-1M (paper) (3746K)",
+  "params": 3745984,
+  "non_embed": 529536,
+  "grammar": 7.183,
+  "creativity": 4.25,
+  "consistency": 5.35,
+  "plot": 3.967,
+  "overall": 5.188,
+  "judge_spread": 0.288
+ },
+ {
+  "model": "TinyStories-3M (paper) (8278K)",
+  "params": 8278400,
+  "non_embed": 1845504,
+  "grammar": 7.8,
+  "creativity": 5.217,
+  "consistency": 6.617,
+  "plot": 5.417,
+  "overall": 6.263,
+  "judge_spread": 0.213
+ }
+]

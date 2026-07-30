@@ -1,0 +1,15 @@
+{
+  "_note": "Coherence-floor grading of the floor ladder (eval/completions_floor.json, 20 prompts/model, temp 0.8). Rubric = TinyStories GPT-4 method (grammar/creativity/consistency/plot, 1-10). JUDGE: acted by the agent model (Claude Opus) in-context, NOT the automated eval/llm_judge.py (which needs ANTHROPIC_API_KEY and uses claude-sonnet-5). Scores are per-model means, holistic over the 20 completions. Re-run llm_judge.py against completions_floor.json for a reproducible, independent grading.",
+  "judge": "agent-in-context (Claude Opus); pending reproducible claude-sonnet-5 run",
+  "temperature": 0.8,
+  "prompts_per_model": 20,
+  "grades": [
+    {"model": "d48/2L", "params": 75504,  "grammar": 2.5, "creativity": 2.0, "consistency": 1.5, "plot": 1.5, "overall": 1.9, "verdict": "broken"},
+    {"model": "d32/5L", "params": 78176,  "grammar": 2.5, "creativity": 2.0, "consistency": 1.5, "plot": 1.5, "overall": 1.9, "verdict": "broken"},
+    {"model": "d64/2L", "params": 131392, "grammar": 4.5, "creativity": 3.0, "consistency": 2.5, "plot": 2.5, "overall": 3.1, "verdict": "marginal"},
+    {"model": "d48/5L", "params": 151824, "grammar": 4.5, "creativity": 3.0, "consistency": 2.5, "plot": 2.5, "overall": 3.1, "verdict": "marginal"},
+    {"model": "d80/2L", "params": 187280, "grammar": 6.0, "creativity": 4.0, "consistency": 4.0, "plot": 3.5, "overall": 4.4, "verdict": "locally coherent"},
+    {"model": "d96/2L", "params": 252384, "grammar": 6.5, "creativity": 4.5, "consistency": 4.5, "plot": 4.0, "overall": 4.9, "verdict": "coherent"},
+    {"model": "A d64/5L", "params": 279232, "grammar": 7.0, "creativity": 4.5, "consistency": 4.5, "plot": 4.5, "overall": 5.1, "verdict": "coherent"}
+  ]
+}
