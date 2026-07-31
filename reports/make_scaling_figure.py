@@ -31,7 +31,8 @@ STYLE = {
 }
 ORDER = ["capacity", "shape", "tokenizer", "quant", "data", "looped", "other", "baseline"]
 FIT_DIRS = ["out_width_d32_long", "out_width_d48_long", "out_width_d64_long",
-            "out_width_d96_long", "out_width_d128_long"]
+            "out_width_d96_long", "out_width_d112_long", "out_width_d128_long",
+            "out_width_d160_long", "out_width_d224_long"]
 
 
 def load():
@@ -78,8 +79,9 @@ def offset_power_fit(N, L):
 def main():
     rows = load()
     by_dir = {r["checkpoint_dir"]: r for r in rows}
-    Nf = np.array([by_dir[d]["N"] for d in FIT_DIRS], float)
-    Lf = np.array([by_dir[d]["bpb"] for d in FIT_DIRS], float)
+    fit = [d for d in FIT_DIRS if d in by_dir and by_dir[d]["bpb"]]   # skip not-yet-trained dirs
+    Nf = np.array([by_dir[d]["N"] for d in fit], float)
+    Lf = np.array([by_dir[d]["bpb"] for d in fit], float)
     o = np.argsort(Nf); Nf, Lf = Nf[o], Lf[o]
     E, A, al, r2 = offset_power_fit(Nf, Lf)
     print(f"L = {E:.4f} + {A:.4f} * N^-{al:.4f}   R2 = {r2:.4f}")
@@ -87,7 +89,8 @@ def main():
     plt.figure(figsize=(9, 6))
     for g in ORDER:
         mk, lab = STYLE[g]
-        pts = [r for r in rows if r["grp"] == g and r["bpb"] and r["N"]]
+        pts = [r for r in rows if r["grp"] == g and r["bpb"] and r["N"]
+               and (r["converged"] == "1" or g == "baseline")]
         if not pts:
             continue
         size = 130 if g == "baseline" else 45

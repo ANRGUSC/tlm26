@@ -13,10 +13,12 @@ FIG = os.path.normpath(os.path.join(HERE, "..", "figures"))
 os.makedirs(FIG, exist_ok=True)
 
 WIDTH = ["out_width_d32_long", "out_width_d48_long", "out_width_d64_long",
-         "out_width_d96_long", "out_width_d128_long"]
+         "out_width_d96_long", "out_width_d112_long", "out_width_d128_long",
+         "out_width_d160_long", "out_width_d224_long"]
 DEPTH = ["out_depth_L1_long", "out_depth_L2_long", "out_depth_L3_long", "out_depth_L4_long",
          "out_width_d64_long", "out_depth_L6_long", "out_depth_L8_long"]
-SHAPE = ["out_iso_d96L2_long", "out_iso_d80L3_long", "out_width_d64_long", "out_iso_d48L10_long"]
+SHAPE = ["out_iso_d96L2_long", "out_iso_d80L3_long", "out_iso_d72L4_long", "out_width_d64_long",
+         "out_iso_d56L7_long", "out_iso_d48L10_long"]
 TOKENIZER = [("out_char105_long", "char (105)"), ("out_tok_256_long", "BPE-256"),
              ("out_width_d64_long", "BPE-512"), ("out_tok_512dep_long", "BPE-512 dep"),
              ("out_tok_512nf_long", "BPE-512 nf"), ("out_tok_512uni_long", "unigram-512"),
