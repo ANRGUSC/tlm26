@@ -58,6 +58,7 @@ multiple_of = 32
 dropout = 0.0
 qat_level = ""        # "" disables QAT; "int4" | "ternary" enable it
 qat_group_size = 64
+qat_skip_embed = False  # keep tok_embeddings/output fp under QAT (ternary-rescue)
 oe_size = 0           # over-encoding: input-only hashed bigram embedding table size (0 disables)
 # adamw optimizer
 gradient_accumulation_steps = 4  # used to simulate larger batch sizes
@@ -158,6 +159,7 @@ model_args = dict(
     dropout=dropout,
     qat_level=qat_level,
     qat_group_size=qat_group_size,
+    qat_skip_embed=qat_skip_embed,
     oe_size=oe_size,
 )  # start with model_args from command line
 if init_from == "scratch":

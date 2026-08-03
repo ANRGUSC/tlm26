@@ -24,6 +24,7 @@ class ModelArgs:
     dropout: float = 0.0
     qat_level: str = ""        # "" | "int4" | "int2" | "ternary"
     qat_group_size: int = 64
+    qat_skip_embed: bool = False   # keep tok_embeddings/output fp under QAT (ternary-rescue: avoids vocab collapse)
     oe_size: int = 0           # over-encoding: input-only hashed bigram embedding table (0 = off)
 
 
@@ -292,7 +293,10 @@ class Transformer(nn.Module):
 
     def forward(self, tokens: torch.Tensor, targets: Optional[torch.Tensor] = None) -> torch.Tensor:
         _bsz, seqlen = tokens.shape
-        h = F.embedding(tokens, fake_quant(self.tok_embeddings.weight, self.params))
+        _skip = getattr(self.params, "qat_skip_embed", False)
+        _emb_w = self.tok_embeddings.weight if _skip else fake_quant(self.tok_embeddings.weight, self.params)
+        _out_w = self.output.weight if _skip else fake_quant(self.output.weight, self.params)
+        h = F.embedding(tokens, _emb_w)
         if self.oe_size > 0:
             prev = F.pad(tokens[:, :-1], (1, 0), value=0)                    # previous token, 0 at position 0
             bigram = (prev.long() * self.vocab_size + tokens.long()) % self.oe_size
@@ -307,11 +311,11 @@ class Transformer(nn.Module):
 
         if targets is not None:
             # if we are given some desired targets also calculate the loss
-            logits = F.linear(h, fake_quant(self.output.weight, self.params))
+            logits = F.linear(h, _out_w)
             self.last_loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1), ignore_index=-1)
         else:
             # inference-time mini-optimization: only forward the output on the very last position
-            logits = F.linear(h[:, [-1], :], fake_quant(self.output.weight, self.params)) # note: using list [-1] to preserve the time dim
+            logits = F.linear(h[:, [-1], :], _out_w) # note: using list [-1] to preserve the time dim
             self.last_loss = None
 
         return logits
