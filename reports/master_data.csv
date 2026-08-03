@@ -16,6 +16,9 @@ I,size_ladder,256,1,8,4,512,tok512,,5000,0,869120,738048,1.3774,0.4813,0.9565,,o
 J,size_ladder,256,2,8,4,512,tok512,,5000,0,1606912,1475840,1.1056,0.4813,0.7677,,out_J,
 char105,tokenizer,64,5,8,4,105,tok105,,5000,0,253184,246464,0.8257,1.0023,1.1941,,out_char105,
 char105_long,tokenizer,64,5,8,4,105,tok105,,30000,1,253184,246464,0.6917,1.0023,1.0003,,out_char105_long,
+chat_d128,other,128,5,8,4,512,tok512,,1500,0,988544,923008,,,,,out_chat_d128,no best_val_loss (fine-tune); bpb not comparable
+chat_d64,other,64,5,8,4,512,tok512,,1500,0,279232,246464,,,,,out_chat_d64,no best_val_loss (fine-tune); bpb not comparable
+chat_d96,other,96,5,8,4,512,tok512,,1500,0,557088,507936,,,,,out_chat_d96,no best_val_loss (fine-tune); bpb not comparable
 data_s01,data_shards,64,5,8,4,512,tok512,,5000,0,279232,246464,1.5656,0.4813,1.0872,,out_data_s01,
 data_s02,data_shards,64,5,8,4,512,tok512,,5000,0,279232,246464,1.5697,0.4813,1.09,,out_data_s02,
 data_s04,data_shards,64,5,8,4,512,tok512,,5000,0,279232,246464,1.5646,0.4813,1.0865,,out_data_s04,
@@ -52,6 +55,8 @@ gpt4_A,data_quality,64,5,8,4,512,tok512_gpt4,,5000,0,279232,246464,1.6129,0.4813
 gpt4_F,data_quality,48,4,4,2,512,tok512_gpt4,,5000,0,126384,101808,1.8948,0.4813,1.3158,,out_gpt4_F,
 iso_d48L10,shape,48,10,8,4,512,tok512,,5000,0,279024,254448,1.633,0.4813,1.1339,,out_iso_d48L10,
 iso_d48L10_long,shape,48,10,8,4,512,tok512,,30000,1,279024,254448,1.3618,0.4813,0.9456,,out_iso_d48L10_long,
+iso_d56L7_long,shape,56,7,4,2,512,tok512,,30000,1,283528,254856,1.3361,0.4813,0.9278,,out_iso_d56L7_long,
+iso_d72L4_long,shape,72,4,4,2,512,tok512,,30000,1,265608,228744,1.3245,0.4813,0.9197,,out_iso_d72L4_long,
 iso_d80L3,shape,80,3,8,4,512,tok512,,5000,0,260400,219440,1.5843,0.4813,1.1001,,out_iso_d80L3,
 iso_d80L3_long,shape,80,3,8,4,512,tok512,,30000,1,260400,219440,1.3556,0.4813,0.9413,,out_iso_d80L3_long,
 iso_d96L2,shape,96,2,8,4,512,tok512,,5000,0,252384,203232,1.5986,0.4813,1.1101,,out_iso_d96L2,
@@ -60,6 +65,11 @@ loop_1x5,looped,96,5,8,4,512,tok512,,5000,0,150816,101664,1.7231,0.4813,1.1965,,
 loop_2x3,looped,96,5,8,4,512,tok512,,5000,0,252384,203232,1.5452,0.4813,1.073,,out_loop_2x3,
 loop_2x3_inject,looped,96,5,8,4,512,tok512,,5000,0,252384,203232,1.6473,0.4813,1.1439,,out_loop_2x3_inject,
 loopfix_2x3_d96,looped,96,2,8,4,512,tok512,,1500,0,252384,203232,1.9221,0.4813,1.3347,,out_loopfix_2x3_d96,
+moe_d64_e16,other,,,,,,,,,,,,,,,,out_moe_d64_e16,TypeError: ModelArgs.__init__() got an unexpected keyword argument 'n_experts'
+moe_d64_e32,other,,,,,,,,,,,,,,,,out_moe_d64_e32,TypeError: ModelArgs.__init__() got an unexpected keyword argument 'n_experts'
+moe_d64_e64,other,,,,,,,,,,,,,,,,out_moe_d64_e64,TypeError: ModelArgs.__init__() got an unexpected keyword argument 'n_experts'
+moe_d64_e8,other,,,,,,,,,,,,,,,,out_moe_d64_e8,TypeError: ModelArgs.__init__() got an unexpected keyword argument 'n_experts'
+moe_d64_e8_top1,other,,,,,,,,,,,,,,,,out_moe_d64_e8_top1,TypeError: ModelArgs.__init__() got an unexpected keyword argument 'n_experts'
 oe_2048_dep,quant,64,5,8,4,512,tok512dep,,5000,0,410304,377536,1.871,0.3677,0.9925,,out_oe_2048_dep,
 qat_int4,quant,64,5,8,4,512,tok512,int4,5000,0,279232,246464,1.5918,0.4813,1.1053,,out_qat_int4,
 qat_int4_dep,quant,64,5,8,4,512,tok512dep,int4,5000,0,279232,246464,1.9956,0.3677,1.0586,,out_qat_int4_dep,
@@ -70,6 +80,8 @@ qat_ternary_d96,quant,96,5,8,4,512,tok512,ternary,5000,0,557088,507936,1.6684,0.
 qat_ternary_d96_dep,quant,96,5,8,4,512,tok512dep,ternary,5000,0,557088,507936,2.0754,0.3677,1.1009,,out_qat_ternary_d96_dep,
 qat_ternary_d96_long,quant,96,5,8,4,512,tok512,ternary,30000,1,557088,507936,1.4763,0.4813,1.0252,,out_qat_ternary_d96_long,
 qat_ternary_long,quant,64,5,8,4,512,tok512,ternary,30000,1,279232,246464,1.7446,0.4813,1.2114,,out_qat_ternary_long,
+qat_ternary_rescue_d64_long,quant,64,5,8,4,512,tok512,ternary,30000,1,279232,246464,1.6874,0.4813,1.1717,,out_qat_ternary_rescue_d64_long,
+qat_ternary_rescue_d96_long,quant,96,5,8,4,512,tok512,ternary,30000,1,557088,507936,1.4307,0.4813,0.9935,,out_qat_ternary_rescue_d96_long,
 rag_qa_279k,rag,64,5,8,4,512,tok512,,1500,0,279232,246464,,,,,out_rag_qa_279k,no best_val_loss (fine-tune); bpb not comparable
 rag_qa_d128,rag,128,5,8,4,512,tok512,,1500,0,988544,923008,,,,,out_rag_qa_d128,no best_val_loss (fine-tune); bpb not comparable
 tok_256,tokenizer,64,5,8,4,256,tok256,,5000,0,262848,246464,1.5857,0.4813,1.1011,,out_tok_256,
@@ -80,8 +92,11 @@ tok_512nf,tokenizer,64,5,8,4,512,tok512nf,,5000,0,279232,246464,1.9403,0.3674,1.
 tok_512nf_long,tokenizer,64,5,8,4,512,tok512nf,,30000,1,279232,246464,1.6562,0.3674,0.878,,out_tok_512nf_long,
 tok_512uni,tokenizer,64,5,8,4,512,tok512uni,,5000,0,279232,246464,1.5578,0.4854,1.0908,,out_tok_512uni,
 tok_512uni_long,tokenizer,64,5,8,4,512,tok512uni,,30000,1,279232,246464,1.3051,0.4854,0.9139,,out_tok_512uni_long,
+width_d112_long,width,112,5,8,4,512,tok512,,30000,1,784336,726992,1.0541,0.4813,0.732,,out_width_d112_long,
 width_d128,width,128,5,8,4,512,tok512,,5000,0,988544,923008,1.183,0.4813,0.8215,,out_width_d128,
 width_d128_long,width,128,5,8,4,512,tok512,,30000,1,988544,923008,1.0144,0.4813,0.7044,,out_width_d128_long,
+width_d160_long,width,160,5,8,4,512,tok512,,30000,1,1542880,1460960,0.9321,0.4813,0.6472,,out_width_d160_long,
+width_d224_long,width,224,5,8,4,512,tok512,,30000,1,2912672,2797984,0.8488,0.4813,0.5894,,out_width_d224_long,
 width_d32,width,32,5,8,4,512,tok512,,5000,0,78176,61792,2.1167,0.4813,1.4699,,out_width_d32,
 width_d32_long,width,32,5,8,4,512,tok512,,30000,1,78176,61792,1.7571,0.4813,1.2201,,out_width_d32_long,
 width_d48,width,48,5,8,4,512,tok512,,5000,0,151824,127248,1.8282,0.4813,1.2695,,out_width_d48,
