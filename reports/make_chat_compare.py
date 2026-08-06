@@ -10,9 +10,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FIG = os.path.normpath(os.path.join(HERE, "..", "figures"))
 os.makedirs(FIG, exist_ok=True)
 
-labels = ["d64 (279K)", "d96 (557K)", "d128 (989K)"]
-all_em = [0.905, 0.958, 0.972]
-rare_em = [0.349, 0.605, 0.744]
+labels = ["d32 (78K)", "d48 (152K)", "d64 (279K)", "d96 (557K)", "d128 (989K)"]
+all_em = [0.760, 0.825, 0.905, 0.958, 0.972]
+rare_em = [0.000, 0.023, 0.349, 0.605, 0.744]
 
 x = np.arange(len(labels))
 w = 0.38
