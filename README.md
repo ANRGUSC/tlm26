@@ -119,6 +119,9 @@ python tinylm/rag_poc/finetune_qa.py --ckpt_dir out_width_d128_long --data rag_p
 
 The exact commands used for every convergence sweep are preserved in `tinylm/run_*.sh`.
 
+Pretrained Mixture-of-Experts weights (the 8–128 expert scaling family) are on the Hugging Face Hub:
+[`himatthew125/tlm26`](https://huggingface.co/himatthew125/tlm26).
+
 ---
 
 ## Results
