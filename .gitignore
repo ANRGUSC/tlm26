@@ -1,0 +1,16 @@
+*.md
+*.pt
+*.bin
+*.log
+*.pyc
+*_train.jsonl
+*_raw.h
+out_*/
+**/out_*/
+**/data/tok*/
+**/data/TinyStories*/
+**/data/*.txt
+**/data/*.gz
+**/esp32_wokwi/model_*.h
+**/eval/completions_*.json
+__pycache__/

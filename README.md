@@ -130,7 +130,7 @@ table is in [`reports/master_data.csv`](reports/master_data.csv).
 
 ![Bits per byte vs parameters, every model](figures/scaling_figure.png)
 
-Every trained model sits on one log-log plot of bits/byte against size. The red line is the offset
+Every converged model sits on one log-log plot of bits/byte against size. The red line is the offset
 power law fit to the controlled width sweep:
 
 ```
