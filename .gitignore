@@ -3,6 +3,7 @@
 *.bin
 *.log
 *.pyc
+*.exe
 *_train.jsonl
 *_raw.h
 out_*/
